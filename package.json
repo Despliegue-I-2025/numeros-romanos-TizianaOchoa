@@ -1,9 +1,10 @@
 {
-  "name": "tateti-random",
+  "name": "conversor-romanos",
   "version": "1.0.0",
-  "main": "tateti-random.js",
+  "description": "Conversor de numeros Romanos ↔ Arabigos con Express",
+  "main": "romanos.js",
   "scripts": {
-    "start": "node tateti-random.js",
+    "start": "node romanos.js",
     "test": "jest"
   },
   "dependencies": {
@@ -19,3 +20,4 @@
     ]
   }
 }
+
