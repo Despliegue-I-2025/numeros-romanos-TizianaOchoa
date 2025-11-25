@@ -1,11 +1,12 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/romanos.js", "use": "@vercel/node" }
+    { "src": "api/index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "api/romanos.js" }
+    { "src": "/(.*)", "dest": "api/index.js" }
   ]
 }
+
 
 
