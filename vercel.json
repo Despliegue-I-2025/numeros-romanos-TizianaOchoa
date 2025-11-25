@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/romanos.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/romanos", "dest": "api/romanos.js" }
+  ]
+}
+
